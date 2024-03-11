@@ -1,0 +1,31 @@
+{
+  "name": "saikrishna064.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "homepage": "https://krishnatammi.me",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Portfolio",
+    "Frontend",
+    "Coding"
+  ],
+  "author": "saikrishna",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.64",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
