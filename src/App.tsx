@@ -1,4 +1,3 @@
-import { ChakraProvider } from "@chakra-ui/provider";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import man from "../assets/man.png";
